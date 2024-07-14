@@ -29,12 +29,6 @@ plt.rc_context({'lines.linewidth': 1, 'lines.linestyle': '-'})
 plt.rcParams['font.size'] = 14
 plt.rcParams['figure.figsize'] = (14,8)
 
-# First send a request for creation of account to Astro Data Lab on the website link above
-
-# code to login to Astro Data Lab
-token = ac.login(input("Enter user name: (+ENTER) "),getpass("Enter password: (+ENTER) "))
-ac.whoAmI()
-
 # set the client to SPARCL
 client = SparclClient()
 client
