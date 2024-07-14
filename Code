@@ -2,6 +2,8 @@
 
 # website: https://datalab.noirlab.edu/about.php
 
+# you will require to sign up to Astro Data Lab for running this code in it
+
 # this is a sample code which stacks spectra of 10 QSOs from the BOSS-DR16 data set
 
 # import sparcl.client
