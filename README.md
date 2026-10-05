@@ -11,19 +11,17 @@ The broader group project studied QSOs as tracers of the Universe and discussed 
 - `docs/reproducibility.md` — the sample selection and what is needed to rerun it.
 - `docs/references.md` — project, data, software, and scientific reference links with their roles.
 - `CITATION.cff` — citation metadata.
-- `LICENSE` — GNU General Public License, version 3.
+- `LICENSE` — MIT License.
 
 The report discusses SDSS DR16, BOSS DR16, and DESI EDR, but the current notebook does not contain runnable examples for all three releases. It does not fit emission lines, estimate AGN physical properties, or measure large-scale structure.
 
 ## Historical work and later improvements
 
-The notebook and report are the record of the original student work. A retrospective review in October 2026 identified implementation and documentation problems, including incorrect column use in the weighted mean and a clipping calculation that takes a spread over whole rows instead of fluxes. The report's figure captions also label all four plots as weighted means, although the plotted axes distinguish simple and weighted means.
-
-These issues are disclosed here so the development history remains visible. **The original notebook has not been silently replaced, and this documentation draft does not claim the code issues are already fixed.** Later corrections should be added as a clearly named, dated version or file, with the original notebook preserved and the decisions and checks recorded. Scientific choices that remain ambiguous—especially dust correction and rest-frame flux-density convention—must be explained before they are changed.
+The notebook and report record my completed spectral-stacking project from the Summer Project of 2024 under Prof. Shadab Alam. I’m now revisiting the notebook to clarify the methods and correct parts of the implementation and explanation as needed.
 
 ## Related black-hole kick work
 
-The report says I worked with black-hole merger simulations and learned about kick velocities, but it does not document a method, numerical results, or a completed deliverable for that work. I am treating the kick-velocity analysis as a separate, unfinished personal follow-up, not as a completed result of the spectral-stacking project. The repository should not claim kick values or conclusions unless a later, reproducible analysis supports them.
+During the Summer 2024 project, I also explored black-hole merger kick velocities. I learned about kick velocities and worked with simulations, but did not complete a separate, reproducible numerical analysis.
 
 ## Running the original notebook
 
