@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Stacking Spectra of QSOs and Galaxies"
+authors:
+  - family-names: Rehani
+    given-names: Kautik
+repository-code: "https://github.com/K-Rehani/Stacking-Spectra"
+license: GPL-3.0-only
