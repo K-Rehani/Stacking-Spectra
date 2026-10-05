@@ -7,7 +7,7 @@ The broader group project studied QSOs as tracers of the Universe and discussed 
 ## What is in this repository
 
 - `Stacked Spectrum Code.ipynb` — the original 2024 notebook, retained unchanged during this review. It includes one saved SDSS DR16 QSO example (100 objects; redshift 0.6–1.1; RA and Dec 0–10 degrees) and saved plots. The notebook prints the sample's SPARCL `specid` values.
-- [Original Summer 2024 project report](TIFR_Summer_Project_2024_Report.pdf) — the report submitted for the 2024 project.
+- [Original Summer 2024 project report](TIFR Summer Project 2024 Report.pdf) — the report submitted for the 2024 project.
 - `docs/methods-and-limitations.md` — the method as implemented, its scientific assumptions, and issues identified in a later review.
 - `docs/reproducibility.md` — the sample selection and what is needed to rerun it.
 - `docs/references.md` — project, data, software, and scientific reference links with their roles.
